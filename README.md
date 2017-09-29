@@ -16,8 +16,10 @@ Ce fichier charge les éléments suivants:
 - js/clocks.js = un endroit où mettre votre code JavaScript.
 
 ## Fonctionnement
-
-((à définir))
+Horloge Portrait.
+Derrière les chiffres de mon horloge une photo (d'un portrait) défilera en fond, toutes les secondes.
+Mon horloge sera en grand (noir) au milieu de la page au dessus des images (qui défileront en boucle).
+Une horloge simple et drôle.
 
 Automne 2017  
 Eracom, Lausanne
