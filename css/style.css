@@ -2,7 +2,7 @@
  * Chargement des fontes
  * Voir : http://cours-web.ch/css/typographie
 */
-
+<link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
 
 @font-face {
     font-family: 'notcouriersans';
@@ -16,13 +16,24 @@
     src: url('../fonts/NotCourierSans-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
+
 }
 
 
 html {
 	font-family: notcouriersans, monospace;
 }
+#horloge {
 
+	font-size:500%;
+	font-family: 'Germania One', cursive;
+	text-align: center;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
 
 /*
  * Définition du modèle de boîte
@@ -35,4 +46,3 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
